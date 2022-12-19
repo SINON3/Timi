@@ -54,7 +54,7 @@ bot = Client("Timi", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, plug
 async_mongo_client = async_mongo(MONGO_DB)
 db = async_mongo_client.erina
 
-TIMI = """Timi is Up....!\n • Timi version: `v1.0.1`\n • Timi loves to play"""
+TIMI = """Timi is Up....!\n • Chocola version: `v1.0.1`\n • Timi loves to play"""
 TIMI_MSG = """Watashi Wa Timi is up!\n •Use /help to know my commands >~<"""
 
 Buttons = [
